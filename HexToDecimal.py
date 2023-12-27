@@ -16,6 +16,20 @@ def HexToDec(hexa):
             exponent+=1
     return decimal
         
+while True:
+    hexa = input("Enter Hexadecimal: ")
+    print(HexToDec(hexa))
+    break
 
-hexa = input("Enter Hexadecimal: ")
-print(HexToDec(hexa))
+    # If you want to loop the program, just remove the quotation marks
+    '''choice = input("Do you want to continue? (Y/N): ")
+    
+    if choice.upper() == "Y":
+        print()
+        continue
+    elif choice.upper() == "N":
+        print("Thank You!")
+        break
+    else:
+        print("Invalid input!\n**Program Terminated**")
+        break'''
