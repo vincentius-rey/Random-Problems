@@ -15,8 +15,10 @@ def OctalToDecimal(octal):
 while True:
     octal = int(input("Enter octal: "))
     print("Equivalent Decimal: {}" .format(OctalToDecimal(octal)))
+    break
 
-    choice = input("Do you want to continue? (Y/N): ")
+    # If you want to loop the program, just remove the quotation marks
+    '''choice = input("Do you want to continue? (Y/N): ")
     
     if choice.upper() == "Y":
         print()
@@ -26,7 +28,7 @@ while True:
         break
     else:
         print("Invalid input!\n**Program Terminated**")
-        break
+        break'''
 
 
     
