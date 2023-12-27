@@ -10,8 +10,22 @@ def RomanNumerals(num):
             quo -= 1            # Decrements the quotient until it gets to 0
         i -= 1                  # Decrementing the index
         
+while True:
+    number = int(input("Enter an integer: "))
+    RomanNumerals(number)
+    break
 
-number = int(input("Enter an integer: "))
-RomanNumerals(number)
+    # If you want to loop the program, just remove the quotation marks
+    '''choice = input("Do you want to continue? (Y/N): ")
+    
+    if choice.upper() == "Y":
+        print()
+        continue
+    elif choice.upper() == "N":
+        print("Thank You!")
+        break
+    else:
+        print("Invalid input!\n**Program Terminated**")
+        break'''
     
 
